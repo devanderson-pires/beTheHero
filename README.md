@@ -4,7 +4,7 @@
 
 <p align="center"> :rocket: <b>Semana Omnistack 11.0</b> <br>por <a href="https://rocketseat.com.br/">Rocketseat</a></p>
 
-<img src=".github/heros.png" alt="">
+<img src=".github/bethehero.png" alt="">
 
 ## Tecnologias
 
