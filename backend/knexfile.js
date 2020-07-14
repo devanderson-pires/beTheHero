@@ -16,6 +16,19 @@ module.exports = {
     useNullAsDefault: true,
   },
 
+  test: {
+    client: 'sqlite3',
+    connection: {
+      // arquivo que armazena os dados
+      filename: './src/database/test.sqlite'
+    },
+    // forma de criar tabelas e manter um histórico
+    migrations: {
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault: true,
+  },
+
   staging: {
     client: 'postgresql',
     connection: {
